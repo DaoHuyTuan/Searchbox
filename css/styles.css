@@ -1,0 +1,113 @@
+#searchBoxIcon {
+  border-color: #e6e6e6;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.8;
+  float: left;
+  font-size: 25px;
+  padding-left: 10px;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  outline: none;
+  width: 100%;
+  height: 50px; }
+  #searchBoxIcon:hover {
+    opacity: 1;
+    outline: none;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 50px;
+    float: left; }
+
+.searchBoxIcon {
+  float: left;
+  font-size: 24px;
+  outline: none;
+  border: none;
+  width: 70%;
+  height: 45px;
+  border: none; }
+
+#DivIconSearch {
+  width: 5%;
+  height: 50px;
+  float: left;
+  position: relative; }
+  #DivIconSearch #iconSearch {
+    position: absolute;
+    left: 30%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+#main {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  /*background-color: red;*/ }
+
+.searchBox {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  width: 1000px;
+  height: 768px;
+  float: left;
+  /*background-color: blue;*/ }
+
+.search {
+  width: 100%;
+  float: left;
+  height: 50px; }
+
+body {
+  width: 100%;
+  margin: auto;
+  /*background-color: yellow;*/ }
+
+.searchboxWidget {
+  border-width: 1%;
+  border-color: #e6e6e6;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: white;
+  opacity: 0.8;
+  float: left;
+  font-size: 25px;
+  padding-left: 10px;
+  /*box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);*/
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  outline: none;
+  width: 100%;
+  height: 50px; }
+
+.searchboxWidget:hover {
+  border-width: 1%;
+  border-color: #e6e6e6;
+  border-style: solid;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: white;
+  opacity: 1;
+  outline: none;
+  font-size: 25px;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 50px;
+  float: left; }
+
+#DivIconSpeech {
+  width: 25%;
+  height: 50px;
+  float: left;
+  position: relative; }
+  #DivIconSpeech #iconspeech {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%); }
+
+/*# sourceMappingURL=styles.css.map */
