@@ -1,0 +1,12 @@
+#DivIconSpeech{
+  width:25%;
+  height:50px;
+  float: left;
+  position: relative;
+  #iconspeech{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
